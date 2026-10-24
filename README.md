@@ -28,7 +28,15 @@ Answer: "I couldn't find this in the provided documents. The passages discuss
 distractor ordering and evaluation in multi-document QA."
 
 ## Manual smoke test
-<paste your table: question, expected, result>
+#	Type	Question	Expected	Result	Note
+1	Answerable	What metric do the authors use for multi-document QA?	accuracy, p.3		
+2	Answerable	Why randomize the order of the distractor documents?	p.3, p.14		
+3	Answerable	What happens with hard-negative distractors?	p.14		
+4	Answerable	your own question	pdf, page		
+5	Answerable	your own question	pdf, page		
+6	Unanswerable	What is attention?	refusal	✅	refused correctly
+7	Unanswerable	How do I bake bread?	refusal		
+8	Unanswerable	your uncovered AI/ML question	refusal
 
 Corpus used: <PDF titles and sources>
 
