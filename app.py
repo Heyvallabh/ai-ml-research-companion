@@ -94,7 +94,7 @@ print("chunks this run:", len(Chunks), "| stored in DB:", collection.count())
 
 ############################################################################################
 # Querying and retriving relevant chunks from CHROMADB
-query_text = "Why did the authors randomize the order of the distractor documents?"
+query_text = "What metric do the authors use to evaluate multi-document QA?"
 query_embedding = model.encode(query_text,normalize_embeddings=True).tolist()
 
 results = collection.query(
